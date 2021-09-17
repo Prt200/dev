@@ -1,0 +1,15 @@
+<script>
+
+
+    function fun() {
+        const data = fetch('https://jsonplaceholder.typicode.com/todos').then((resp) => {
+            return resp.text()
+        }).then((resp2) => {
+            console.log(resp2)
+        })
+        return data
+    }
+
+    console.log(fun())
+
+</script>
