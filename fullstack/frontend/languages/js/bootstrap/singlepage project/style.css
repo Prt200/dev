@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    color: black;
+    font-weight: 600;
+}
+.navbar-brand{
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+}
+.carousel-caption{
+    position:absolute;
+    top: 50%;
+     left:-40%;
+}
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: black;
+}
+.carousel-caption p{
+    color: black;
+    font-weight: 600;
+}
+.btn{
+    background-color:red;
+    height: 45px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    transition: 0.4s;
+}
+.collection span{
+    color: yellowgreen;
+     font: size 19px;
+    font-weight: 800;
+    padding-left: 5px;
+}
+.card{
+    border: none; 
+}
+.collection input{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    background-color: yellowgreen;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    top: 30%;
+    left: 30%;
+   opacity: 0.1;
+}
+.collection .card:hover input{
+ opacity: 1;
+ transition: 1s;
+}
+.collection input:hover{
+    background-color:rgb(192, 168, 168) ;
+    transition: 0.5s;
+}

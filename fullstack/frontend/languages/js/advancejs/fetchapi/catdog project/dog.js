@@ -3,6 +3,12 @@ const dog_btn = document.getElementById('dog_btn');
 const cat_result = document.getElementById('cat_result');
 const dog_result = document.getElementById('dog_result');
 
+// const getRandomCat = function () {
+//     console.log("cat_btn");
+// }
+
+// setTimeout(getRandomCat, 3000);
+
 cat_btn.addEventListener('click', getRandomCat);
 dog_btn.addEventListener('click', getRandomDog);
 
@@ -13,7 +19,7 @@ function getRandomCat() {
             cat_result.innerHTML = `<img src=${data.file} alt="cat" />`
         });
 }
- 
+
 function getRandomDog() {
     fetch('https://random.dog/woof.json')
         .then(res => res.json())
